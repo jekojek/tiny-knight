@@ -10,8 +10,11 @@ late-move reductions, and quiescence over captures, promotions and
 replies to check. Evaluation is material + piece-square tables + the
 bishop pair, from the snapshot's own fitted tables.
 
-Local practice trials (kit env server, 6 games each): 1099 / (1 and 2
-pending). The readable source the payload unpacks to is developed in
-`/tmp/dev` (not part of this repo, to respect the 8,192-byte tree cap).
+Local practice trials (kit env server, 6 games each): 1099, 1191,
+1451 — mean 1247. Clears the 1,154 practice floor; below the
+sunfish-4k baseline mean (~1,325), so a paid place is unlikely
+unless the final instances run hot. The readable source the payload
+unpacks to is kept in `../dev-src/main_readable.py` (not part of this
+repo, to respect the 8,192-byte tree cap).
 
 License: MIT. Built by nindi (@monokotomo) for tiny-chess-01.
